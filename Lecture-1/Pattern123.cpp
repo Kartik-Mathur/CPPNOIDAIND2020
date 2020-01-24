@@ -1,8 +1,11 @@
 // Pattern123
 #include <iostream>
+#include <climits>
 using namespace std;
 
 int main(){
+	int min_int = INT_MIN; // -2^31
+	int max_int = INT_MAX; // 2^31 - 1
 	int n;
 	cin>>n;
 
