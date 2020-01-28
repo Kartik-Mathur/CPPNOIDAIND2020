@@ -11,12 +11,13 @@ int main(){
 	while(i<=n-1){
 		if(n%i==0){
 			cout<<"Not Prime"<<endl;
-			return 0;
+			break;
 		}
 		i = i + 1;
 	}
-
-	cout<<"Prime "<<endl;
+	if(i == n){
+		cout<<"Prime "<<endl;
+	}
 
 
 	return 0;
