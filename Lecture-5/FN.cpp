@@ -4,7 +4,6 @@ using namespace std;
 int main(){
 	ll int n;
 	cin>>n;
-
 	while(n>0){
 		ll int no;
 		cin>>no;
@@ -16,7 +15,5 @@ int main(){
 		}
 		n--;
 	}
-
-
 	return 0;
 }
