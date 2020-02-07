@@ -18,7 +18,7 @@ bool isSorted(int *a,int n){
 
 int main(){
 	
-	int a[]={11,2,4,5,6,7,8,9,10};
+	int a[]={1,2,4,5,6,7,8,9,10};
 	int n = sizeof(a)/sizeof(int);
 
 	if(isSorted(a,n)){
