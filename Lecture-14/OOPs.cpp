@@ -5,25 +5,25 @@ using namespace std;
 class Car{
 private:
 	int price;
-
+	const int tyre;
 public:
 	char *name;
 	int year;
 
-	Car(){
+	Car():tyre(4){
 		cout<<"In Default Constructor"<<endl;
 		name = NULL;
 	}
 
-	Car(char* n,int p,int y){
+	Car(char* n,int p,int y):tyre(4),year(y),price(p){
 		cout<<"In Parametreized Constructor"<<endl;
 		name = new char[strlen(n)+1];
 		strcpy(name,n);
-		price = p;
-		year = y;
+		// price = p;
+		// year = y;
 	}
 
-	Car(Car &X){
+	Car(Car &X):tyre(4){
 		cout<<"In Copy Constructor"<<endl;
 		name = new char[strlen(X.name)+1];
 		strcpy(name,X.name);
