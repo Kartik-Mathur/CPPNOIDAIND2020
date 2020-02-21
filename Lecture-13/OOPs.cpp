@@ -1,13 +1,14 @@
-// OOPs
-#include<iostream>
-using namespace std;
-
-/////////////////////////////// BLUEPRINT ///////////////////////////////////
-class Student{
-public:
-	char name[100];
-	int marks;
-	int roll;
+// OOPs 
+#include<iostream> 
+using namespace std; 
+ 
+/////////////////////////////// BLUEPRINT ///////////////////////////////////  
+ 
+class Student{ 
+public: 
+	char name[100]; 
+	int marks;  
+	int roll; 
 
 	// Constructor : It is used to create objects
 	Student(){
